@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="1B7D8686-7333-E75D-0E9B-696C0A89B5AC">
+<createdBy>CETECOM</createdBy>
+<modifiedBy>CETECOM</modifiedBy>
+<createdTime>2025-08-29 23:15:45 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="10BA6280-A56B-7E57-DE66-7602009D2121" otype="Entity" vid="6B1F6FC4-D6BF-464E-648A-BEB477764959">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="378" y="295" width="146" height="96"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2EB1DB31-50A5-048B-AE32-3109ACB253D1" otype="Entity" vid="02B9B128-BB7E-686F-9484-9AD284513BEA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="94" y="99" width="196" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E6FD9C17-D348-AB68-36A7-1A7676BEA008" otype="Entity" vid="7071380A-64BA-5022-1E37-07379E5B021B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="549" y="40" width="225" height="193"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B0734084-F254-7EA2-D737-37507E51C437" otype="Relation" vid_source="02B9B128-BB7E-686F-9484-9AD284513BEA" vid_target="6B1F6FC4-D6BF-464E-648A-BEB477764959">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="290" y="207"/>
+<point x="416" y="207"/>
+<point x="416" y="295"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E21EF53C-31DC-455B-F31E-BE21B023793C" otype="Relation" vid_source="7071380A-64BA-5022-1E37-07379E5B021B" vid_target="6B1F6FC4-D6BF-464E-648A-BEB477764959">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="549" y="205"/>
+<point x="459" y="205"/>
+<point x="459" y="295"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

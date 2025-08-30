@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6FD9C17-D348-AB68-36A7-1A7676BEA008" name="ALUMNO">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:26:59 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alumno" id="24CD9F77-D0DE-5FFC-02FD-0C035C6CBA5A">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:27:20 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="60C86B13-4434-C7C5-43B7-AE29A0C2B381">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:27:21 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="96DCEAE7-6D61-0DA7-4B39-08A579F521D9">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:29:30 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="FC8898FC-93DF-2FDE-ED02-35AB8AD37351">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:29:42 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ape_paterno" id="AD49A029-2D3D-6D64-3240-B258893B3A56">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:29:50 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ape_materno" id="3578EC00-2A2C-7900-750C-BFFAFB4398C2">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:29:59 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="ED224EF4-4D75-C409-C6FC-92EE85F83E00">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:30:17 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="F5D869A8-8A83-0E3C-6B0B-07D3FF61F825">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:30:38 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="4DF23D63-37D3-9C95-0B8A-4BD93E252D9D">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:30:52 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="5F0E5C68-EA6E-FEE0-590E-D8965B02BD87">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:31:00 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento" id="6CC2F77B-3515-F910-7759-ABC923D5F5E7">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:33:36 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3996451-7C31-D996-C4F3-922B24939EAF" name="ALUMNO PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:27:55 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24CD9F77-D0DE-5FFC-02FD-0C035C6CBA5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

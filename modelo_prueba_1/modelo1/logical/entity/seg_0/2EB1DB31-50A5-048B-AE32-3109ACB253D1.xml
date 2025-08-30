@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EB1DB31-50A5-048B-AE32-3109ACB253D1" name="ASIGNATURA">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:15:45 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_asignatura" id="F78C2623-4727-9B46-3C3B-0D853B8BDA61">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:16:58 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_asignatura" id="05041725-72F6-FDAB-C7EA-368DE612D4FD">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:25:19 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="921CB47C-BF7C-1DC5-DD83-068406859950" name="ASIGNATURA PK">
+<createdBy>CETECOM</createdBy>
+<createdTime>2025-08-29 23:24:35 UTC</createdTime>
+<ownerDesignName>modelo1</ownerDesignName>
+<engineerTo>
+<item key="B1523115-D7D1-EFD3-0645-561475C24AA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F78C2623-4727-9B46-3C3B-0D853B8BDA61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
